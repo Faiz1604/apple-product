@@ -1,0 +1,128 @@
+
+body {
+  background-color: #000000;
+  color: #fff;
+  font-family:sans-serif;
+  margin: 0;
+}
+
+.product-showcase {
+  width: 100%;
+  text-align: center;
+}
+
+.product-showcase.full-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow-y: auto;
+}
+
+.blog-post {
+  display: flex;
+  justify-content: space-between; /* Adjust spacing as needed */
+  margin-top: 20px;
+}
+
+.product-info {
+  width: 49%; /* Adjust width as needed */
+  box-sizing: border-box;
+}
+
+.product-image {
+  width: 100%;
+  height: 500px;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.product-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.product-image img:hover {
+  transform: scale(1.1);
+}
+
+.model-selector {
+  display: flex;
+  width: 98%;
+  justify-content: center;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+button {
+  cursor: pointer;
+  background-color: #0070c9;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+  background-color: #005aa0;
+  transform: translateY(-2px);
+}
+
+.details {
+  width: 98%; /* Adjust width as needed */
+  padding: 20px;
+  text-align: center;
+}
+
+.description {
+  font-style: italic;
+  color: #ccc;
+  margin-bottom: 15px;
+}
+
+.technical-specs {
+  display: inline;
+  margin-top: 100px;
+  width: 49%; /* Adjust width as needed */
+  padding: 20px;
+  background-color: #000000;
+}
+
+.technical-specs h3 {
+  margin-top: 20px;
+  color: #fff;
+}
+
+.technical-specs ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.technical-specs ul li {
+  margin: 10px 0;
+  color: #ccc;
+}
+
+@media (max-width: 600px) {
+  .blog-post {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .product-info,
+  .details,
+  .technical-specs {
+    width: 100%;
+    margin: 0;
+  }
+}

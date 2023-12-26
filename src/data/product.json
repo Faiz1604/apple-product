@@ -1,0 +1,54 @@
+{
+  "iphone15": {
+    "models": [
+      {
+        "model": "iPhone 15 Pro",
+        "storage": ["128GB", "256GB", "512GB"],
+        "colors": ["Graphite", "Gold", "Silver", "Sierra Blue"],
+        "display": "Super Retina XDR display",
+        "camera": "Triple-lens camera system",
+        "chip": "A16 Bionic chip",
+        "features": ["5G connectivity", "MagSafe technology", "Face ID"],
+        "price": {
+          "128GB": 1099,
+          "256GB": 1199,
+          "512GB": 1399
+        },
+        "image": "https://www.lux.camera/content/images/size/w1000/2023/10/hero-4.jpg",
+        "description": "The iPhone 15 Pro features a stunning Super Retina XDR display, a powerful A16 Bionic chip, and a triple-lens camera system for capturing incredible photos and videos. Enjoy the convenience of 5G connectivity, MagSafe technology for seamless accessories, and secure Face ID."
+      },
+      {
+        "model": "iPhone 15",
+        "storage": ["64GB", "128GB", "256GB"],
+        "colors": ["Black", "White", "Blue", "Green", "Product(RED)"],
+        "display": "Liquid Retina HD display",
+        "camera": "Dual-lens camera system",
+        "chip": "A16 Bionic chip",
+        "features": ["5G connectivity", "Face ID"],
+        "price": {
+          "64GB": 799,
+          "128GB": 899,
+          "256GB": 1099
+        },
+        "image": "https://images.macrumors.com/t/ui4nZwmG_LjE6Sx-trb4zTIlK9M=/1600x900/smart/article-new/2023/09/iPhone-15-General-Feature-Black.jpg",
+        "description": "The iPhone 15 boasts a vibrant Liquid Retina HD display, powered by the advanced A16 Bionic chip. Capture beautiful moments with the dual-lens camera system and enjoy the benefits of 5G connectivity and Face ID for enhanced security."
+      },
+      {
+        "model": "iPhone 15 mini",
+        "storage": ["64GB", "128GB", "256GB"],
+        "colors": ["Black", "White", "Blue", "Green", "Product(RED)"],
+        "display": "Super Retina XDR display",
+        "camera": "Dual-lens camera system",
+        "chip": "A16 Bionic chip",
+        "features": ["5G connectivity", "Face ID"],
+        "price": {
+          "64GB": 699,
+          "128GB": 799,
+          "256GB": 999
+        },
+        "image": "https://cdn.mos.cms.futurecdn.net/faajnfMxWYrwEG8kkHJh3N-1200-80.jpeg",
+        "description": "The iPhone 15 mini packs powerful features into a compact design. Enjoy the stunning Super Retina XDR display, dual-lens camera system, and the performance of the A16 Bionic chip. Stay connected with 5G and benefit from the security of Face ID."
+      }
+    ]
+  }
+}
