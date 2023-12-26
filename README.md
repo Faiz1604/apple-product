@@ -12,15 +12,15 @@ Note: This project requires an internet connection to load some external content
 
 
 
-#DOCUMENTAION
+#DOCUMENTAION:
 
-*Table of Contents
+*Table of Contents:
 Project Structure
 Components
 
 
 
-1.Project Structure
+1.Project Structure:
 The project is structured as follows:
 
 src: Contains the source code for the project.
@@ -33,7 +33,7 @@ public: Public assets such as images and videos.
 
 
 
-2.Components
+2.Components:
 1. Header Component
 Location: src/components/Header.js
 Description: The header component contains information about the iPhone 15 and a CTA (Call To Action) button for users to learn more.
